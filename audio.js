@@ -34,7 +34,7 @@ Amplitude.init({
 document.getElementsByClassName('visualization-toggle')[0].addEventListener('click', function(){
     if(this.classList.contains('visualization-off') ){
         this.classList.remove('visualization-off');
-        this.classList.ass('visualization-on');
+        this.classList.add('visualization-on');
         document.getElementById('larger-now-playing-albun-art').style.display = 'none';
         document.getElementById('large-visualization').style.display = 'block';
     } else {
