@@ -4,7 +4,8 @@
   "description": "amplitude audio",
   "main": "audio.js",
   "dependencies": {
-    "amplitudejs": "^5.3.2"
+    "amplitudejs": "^5.3.2",
+    "bootstrap-icons": "^1.7.0"
   },
   "devDependencies": {},
   "scripts": {
