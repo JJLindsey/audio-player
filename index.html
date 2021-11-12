@@ -11,12 +11,37 @@
         <meta name="audio javascript" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <!-- Include Amplitude JS Visualizations -->
+        <script type="text/javascript" src="https://521dimensions.com/img/open-source/amplitudejs/visualizations/michaelbromley.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div id='screen-list' >
+        <div class='visualization-player'>
+            <div class='container'>
+                <img class='now-playing' id='large-now-playing' data-amplitude-song-info='cover_art'/>
+                <div class='amplitude-visualization' id='large-visualization'>
 
+                </div>
+                <div class='visualization-toggle visualization-on'></div>
+                <div class='amplitude-shuffle'></div>
+                <div class='amplitude-repeat'></div>
             </div>
+
+            <div class='meta-data-container'>
+                <span class='now-playing-name' data-amplitude-song-info='name'></span>
+                <span class='now-playing-artist-album'>
+                    <span class='now-playing-artist' data-amplitude-song-info='artist'></span> - <span class='now-playing-album' data-amplitude-song-info='album'></span>
+                </span>
+            </div>
+
+            <div class='amplitude-wave-form'></div>
+            <input type='range' class='amplitude-song-slider' id='global-large-song-slider'/>
+
+            <div>
+                <span class='amplitude-current-time'></span>
+                <span class='amplitude-time-remaing'></span>
+            </div>
+
+            
 
         </div>
         
