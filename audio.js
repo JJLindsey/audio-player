@@ -11,8 +11,15 @@ Amplitude.init({
         {
             "name": "Bridges",
             "artist": "Bird Dog Jubilee",
-            "url": "/assets/audio/Bird Dog Jubilee/Bridges m.wav",
-            "cover_art_url": "/assets/images/bridge.webp",
+            "url": "././assets/audio/Bridges m.wav",
+            "cover_art_url": "././assets/images/bridge.webp",
+            "visualization": "michaelbromley_visualization"
+        },
+        {
+            "name": "Waiting On",
+            "artist": "Bird Dog Jubilee",
+            "url": "/assets/audio/Bird Dog Jubilee/Waiting On m.wav",
+            "cover_art_url": "././assets/images/general.jpg",
             "visualization": "michaelbromley_visualization"
         }
     ],
